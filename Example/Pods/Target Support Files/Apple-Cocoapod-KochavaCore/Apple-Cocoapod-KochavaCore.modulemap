@@ -1,0 +1,6 @@
+framework module Apple_Cocoapod_KochavaCore {
+  umbrella header "Apple-Cocoapod-KochavaCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

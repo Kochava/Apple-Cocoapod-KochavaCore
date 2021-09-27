@@ -1,5 +1,5 @@
 import XCTest
-import Apple-Cocoapod-KochavaCore
+import KochavaCore
 
 class Tests: XCTestCase {
     

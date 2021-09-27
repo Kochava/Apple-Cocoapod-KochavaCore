@@ -1,0 +1,16 @@
+PODS:
+  - Apple-Cocoapod-KochavaCore (0.1.0)
+
+DEPENDENCIES:
+  - Apple-Cocoapod-KochavaCore (from `../`)
+
+EXTERNAL SOURCES:
+  Apple-Cocoapod-KochavaCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Apple-Cocoapod-KochavaCore: 476b93117cddd0b5212a91c96cc8c554af68e2a0
+
+PODFILE CHECKSUM: d789482dfa1ede72d13b8757f79bc780ede6a4d4
+
+COCOAPODS: 1.10.1
