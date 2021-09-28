@@ -21,12 +21,38 @@
     "tvos": "10.2",
     "watchos": "3.2"
   },
-  "frameworks": [
-    "Foundation",
-    "UIKit",
-    "CoreGraphics",
-    "CoreLocation"
-  ],
+  "ios": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "CoreGraphics",
+      "CoreLocation"
+    ]
+  },
+  "tvos": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "CoreGraphics",
+      "CoreLocation"
+    ]
+  },
+  "watchos": {
+    "frameworks": [
+      "Foundation",
+      "UIKit",
+      "CoreGraphics",
+      "CoreLocation"
+    ]
+  },
+  "osx": {
+    "frameworks": [
+      "Foundation",
+      "AppKit",
+      "CoreGraphics",
+      "CoreLocation"
+    ]
+  },
   "vendored_frameworks": "Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework",
   "preserve_paths": "Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework",
   "swift_versions": "5.0",
