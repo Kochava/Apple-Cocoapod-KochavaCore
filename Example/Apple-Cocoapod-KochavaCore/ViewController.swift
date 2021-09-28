@@ -2,11 +2,15 @@
 //  ViewController.swift
 //  Apple-Cocoapod-KochavaCore
 //
-//  Created by johnbushnell on 09/24/2021.
-//  Copyright (c) 2021 johnbushnell. All rights reserved.
+//  Created by John Bushnell on 09/24/2021.
+//  Copyright (c) 2021 Kochava. All rights reserved.
 //
 
+#if os(OSX)
+import AppKit
+#else
 import UIKit
+#endif
 
 class ViewController: UIViewController {
 

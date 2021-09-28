@@ -28,18 +28,24 @@ Pod::Spec.new do |s|
 #   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '10.3'
+    s.osx.deployment_target = '10.14'
+    s.tvos.deployment_target = '10.2'
+    s.watchos.deployment_target = '3.2'
 
-    s.source_files = 'Apple-Cocoapod-KochavaCore/Classes/**/*'
+#   s.source_files = 'Apple-Cocoapod-KochavaCore/Classes/**/*'
   
 #   s.resource_bundles = {
 #     'Apple-Cocoapod-KochavaCore' => ['Apple-Cocoapod-KochavaCore/Assets/*.png']
 #   }
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+    s.ios.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+    s.tvos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+    s.watchos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+    s.osx.frameworks   = 'Foundation', 'AppKit', 'CoreGraphics', 'CoreLocation'
 #   s.dependency 'Apple-Cocoapod-KochavaCore', '~> 0.1.0'
 
-    s.platform     = :ios, '10.3'
+    # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework'
     s.preserve_paths = 'Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework'
   

@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Apple-Cocoapod-KochavaCore: 476b93117cddd0b5212a91c96cc8c554af68e2a0
+  Apple-Cocoapod-KochavaCore: 62763a114a75df5e75936be52eff8809bf728f9c
 
 PODFILE CHECKSUM: d789482dfa1ede72d13b8757f79bc780ede6a4d4
 

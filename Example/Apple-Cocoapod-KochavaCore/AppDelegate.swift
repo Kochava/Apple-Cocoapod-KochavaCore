@@ -2,14 +2,30 @@
 //  AppDelegate.swift
 //  Apple-Cocoapod-KochavaCore
 //
-//  Created by johnbushnell on 09/24/2021.
-//  Copyright (c) 2021 johnbushnell. All rights reserved.
+//  Created by John Bushnell on 09/24/2021.
+//  Copyright (c) 2021 Kochava. All rights reserved.
 //
 
 
 
+#if os(OSX)
+import AppKit
+#endif
+#if os(watchOS)
+import WatchKit
+#endif
+#if os(iOS)
 import UIKit
+#endif
+#if os(tvOS)
+import UIKit
+#endif
+
 import KochavaCore
+
+
+
+#if os(iOS) || os(tvOS)
 
 
 
@@ -35,3 +51,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     
     
 }
+
+
+
+#endif
+
+
+

@@ -16,9 +16,11 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.3"
+    "ios": "10.3",
+    "osx": "10.14",
+    "tvos": "10.2",
+    "watchos": "3.2"
   },
-  "source_files": "Apple-Cocoapod-KochavaCore/Classes/**/*",
   "frameworks": [
     "Foundation",
     "UIKit",
