@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaCore'
-    s.version          = '0.1.0'
+    s.version          = '5.0.0'
     s.summary          = 'The KochavaCore module of the Kochava SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
     #   * Write the description between the DESC delimiters below.
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     s.description  = <<-DESC
-    The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple platform.  This includes support for iOS, macOS, macCatalyst, tvOS, and watchOS.
+    The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple platform.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.
     DESC
 
     s.homepage         = 'http://www.kochava.com'
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
     s.ios.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+    s.osx.frameworks   = 'Foundation', 'AppKit', 'CoreGraphics', 'CoreLocation'
     s.tvos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
     s.watchos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
-    s.osx.frameworks   = 'Foundation', 'AppKit', 'CoreGraphics', 'CoreLocation'
 #   s.dependency 'Apple-Cocoapod-KochavaCore', '~> 0.1.0'
 
     # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
