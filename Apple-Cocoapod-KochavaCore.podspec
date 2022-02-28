@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaCore'
-    s.version          = '5.1.0'
+    s.version          = '5.1.1'
     s.summary          = 'The KochavaCore module of the Kochava SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     # This description is used to generate tags and improve search results.
@@ -51,7 +51,4 @@ Pod::Spec.new do |s|
   
     s.swift_versions = '5.0'
   
-    # Xcode 12 Bug Fix:  https://github.com/CocoaPods/CocoaPods/issues/10065#issuecomment-694268918
-    s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-    s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
