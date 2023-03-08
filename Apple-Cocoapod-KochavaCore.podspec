@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaCore'
-    s.version          = '5.1.1'
+    s.version          = '6.0.0'
     s.summary          = 'The KochavaCore module of the Kochava SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.3'
     s.osx.deployment_target = '10.14'
     s.tvos.deployment_target = '10.2'
-    s.watchos.deployment_target = '3.2'
+    s.watchos.deployment_target = '7.0'
 
 #   s.source_files = 'Apple-Cocoapod-KochavaCore/Classes/**/*'
   

@@ -1,5 +1,5 @@
 PODS:
-  - Apple-Cocoapod-KochavaCore (5.1.1)
+  - Apple-Cocoapod-KochavaCore (6.0.0)
 
 DEPENDENCIES:
   - Apple-Cocoapod-KochavaCore (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Apple-Cocoapod-KochavaCore: 60f450b08045e75905ddf8796525c1c9fe26339b
+  Apple-Cocoapod-KochavaCore: 0aec89f752f60d4153d40444bb4a4a0d2cc6a42f
 
 PODFILE CHECKSUM: d789482dfa1ede72d13b8757f79bc780ede6a4d4
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.3
