@@ -8,28 +8,21 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaCore'
-    s.version          = '6.1.1'
+    s.version          = '7.0.0'
     s.summary          = 'The KochavaCore module of the Kochava SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
-    # This description is used to generate tags and improve search results.
-    #   * Think: What does it do? Why did you write it? What is the focus?
-    #   * Try to keep it short, snappy and to the point.
-    #   * Write the description between the DESC delimiters below.
-    #   * Finally, don't worry about the indent, CocoaPods strips it!
     s.description  = <<-DESC
     The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple platform.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.
     DESC
 
     s.homepage         = 'http://www.kochava.com'
-#   s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'Commercial', :file => 'LICENSE' }
     s.author           = { 'Kochava' => 'support@kochava.com' }
     s.source           = { :git => 'https://github.com/Kochava/Apple-Cocoapod-KochavaCore.git', :tag => s.version.to_s }
-#   s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-    s.ios.deployment_target = '10.3'
+    s.ios.deployment_target = '12.4'
     s.osx.deployment_target = '10.14'
-    s.tvos.deployment_target = '10.2'
+    s.tvos.deployment_target = '12.4'
     s.watchos.deployment_target = '7.0'
 
 #   s.source_files = 'Apple-Cocoapod-KochavaCore/Classes/**/*'
@@ -39,13 +32,13 @@ Pod::Spec.new do |s|
 #   }
 
 #   s.public_header_files = 'Pod/Classes/**/*.h'
-    s.ios.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
-    s.osx.frameworks   = 'Foundation', 'AppKit', 'CoreGraphics', 'CoreLocation'
-    s.tvos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
-    s.watchos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics', 'CoreLocation'
+    s.ios.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics'
+    s.osx.frameworks   = 'Foundation', 'AppKit', 'CoreGraphics'
+    s.tvos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics'
+    s.watchos.frameworks   = 'Foundation', 'UIKit', 'CoreGraphics'
 #   s.dependency 'Apple-Cocoapod-KochavaCore', '~> 0.1.0'
 
-    # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
+    # s.platforms = { :ios => "12.4", :osx => "10.14", :tvos => "12.4", :watchos => "7.0" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework'
     s.preserve_paths = 'Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework'
   
