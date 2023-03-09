@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     The KochavaCore module provides core support for all modules within the Kochava SDK for the Apple platform.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.
     DESC
 
-    s.homepage         = 'http://www.kochava.com'
+    s.homepage         = 'https://cocoapods.org/pods/Apple-Cocoapod-KochavaCore'
     s.license          = { :type => 'Commercial', :file => 'LICENSE' }
     s.author           = { 'Kochava' => 'support@kochava.com' }
     s.source           = { :git => 'https://github.com/Kochava/Apple-Cocoapod-KochavaCore.git', :tag => s.version.to_s }
