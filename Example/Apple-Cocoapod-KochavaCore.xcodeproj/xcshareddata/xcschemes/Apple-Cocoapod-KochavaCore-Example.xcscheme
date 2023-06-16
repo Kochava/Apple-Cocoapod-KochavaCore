@@ -51,16 +51,6 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "Apple-Cocoapod-KochavaCore_Tests.xctest"
-               BlueprintName = "Apple-Cocoapod-KochavaCore_Tests"
-               ReferencedContainer = "container:Apple-Cocoapod-KochavaCore.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
