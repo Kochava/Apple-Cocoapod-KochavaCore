@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaCore'
-    s.version          = '7.2.0'
+    s.version          = '7.3.0'
     s.summary          = 'The KochavaCore module of the Kochava SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     s.description  = <<-DESC
